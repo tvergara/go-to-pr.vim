@@ -16,5 +16,8 @@ Plug 'tvergara/go-to-pr.vim'
 :GoToPR
 ```
 
-This will open the commit page in github in which the current line was added.
+This will open the commit page in github in which the current line was added. Additionally, you can use the default mapping.
 
+```
+gpr
+```
