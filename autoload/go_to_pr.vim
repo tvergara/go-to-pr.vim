@@ -45,6 +45,10 @@ function! s:get_browser() abort
     return 'firefox'
   endif
 
+  if executable("brave-browser")
+    return "brave-browser"
+  endif
+
   throw 'Browser not found'
 endfunction
 
